@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func var_dump(expression ...interface{}) {
+func Var_dump(expression ...interface{}) {
 	fmt.Println(fmt.Sprintf("%#v", expression))
 }
